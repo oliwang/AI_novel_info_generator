@@ -13,7 +13,8 @@
     <p>测试get_1</p>
     <script>
         var url = "https://jwang0614.top/daily_dictation/dictation_of_the_day/";
-        $.get(url, function(data, status){
+        $.getJSON(url, function(data, status){
+            console.log(data);
             alert("Data: " + data + "\nStatus: " + status);
         });
     </script>
