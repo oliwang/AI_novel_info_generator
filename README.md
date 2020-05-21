@@ -1,0 +1,1 @@
+# AI_novel_info_generator
